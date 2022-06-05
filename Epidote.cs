@@ -21,8 +21,8 @@ namespace Epidote.Forms
         static extern bool GetPhysicallyInstalledSystemMemory(out long TotalMemoryInKilobytes);
         static DateTime localDate = DateTime.Now;
         static WebClient letoltes = new WebClient();
-        static string FailedToken = "https://discord.com/api/webhooks/982636402917408798/lT7HWdWUyG5uXV4T2hixpe0ibdeTkALlvi-m3fkobSmMBOkYJUg_s5sPJCJJIV7cpWoV";
-        static string SuccessToken = "https://discord.com/api/webhooks/973023134938705973/ALmVqRxBFCzDikMrCbWFl-2q7ke-ogM9KqlvhkgwM6S8bZAeIqUp1F673KC1SSZYjPnU";
+        static string FailedToken = "wbhook";
+        static string SuccessToken = "wbhook";
         static string systemBIT;
         static string javaversion;
         static string programversion = "Epidote build 2.0.0";
