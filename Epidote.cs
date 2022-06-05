@@ -374,7 +374,7 @@ namespace Epidote.Forms
                     {
                         new
                         {
-                            description = "Itt láthatod a játékosok indításainak logjait."+"\n\n"+"**Operációs Rendszer**"+"\n\n"+" - "+versionName.OSFullName.Replace("Microsoft", "")+"\n\n"+"**Vanity Név**\n\n"+" - "+LoginUI.vusername+"\n\n"+"**Rendszer (BIT)**\n\n"+" - "+systemBIT+"\n\n"+"**Telepített Java**\n\n"+" - "+javaversion+"\n\n"+"**Indított Kliens**\n\n"+" - "+clientstarted+"\n\n"+"**Epidote Verzió**\n\n"+" - "+programversion+"\n\n"+"**Időpont**\n\n"+" - "+localDate,
+                            description = "",
                             title = "Játékos indítások"+"\n",
                             color = "14690403",
                         }
@@ -401,7 +401,7 @@ namespace Epidote.Forms
                     {
                         new
                         {
-                            description = "Itt láthatod a hibás indítási logokat."+"\n\n"+"**Operációs Rendszer**"+"\n\n"+" - "+versionName.OSFullName.Replace("Microsoft", "")+"\n\n"+"**Vanity Név**\n\n"+" - "+LoginUI.vusername+"\n\n"+"**Rendszer (BIT)**\n\n"+" - "+systemBIT+"\n\n"+"**Telepített Java**\n\n"+" - "+javaversion+"\n\n"+"**Indított Kliens**\n\n"+" - "+clientstarted+"\n\n"+"**Epidote Verzió**\n\n"+" - "+programversion+"\n\n"+"**Időpont**\n\n"+" - "+localDate,
+                            description = "",
                             title = "Hibás Indítási kisérletek"+"\n",
                             color = "14690403",
                         }
