@@ -65,7 +65,7 @@ namespace Epidote.Forms
                         var hash = md5.ComputeHash(stream);
                         if (BitConverter.ToString(hash).Replace("-", "") == "65627D3205D9D25F9C73BB16BC35B054")
                         {
-                            p.StartInfo.FileName = @"C:\Program Files\Java\jre1.8.0_333\bin\javaw.exe";
+                            p.StartInfo.FileName = "javaw.exe";
                             p.StartInfo.Arguments = lunarclientarg;
                             p.StartInfo.UseShellExecute = false;
                             p.Start();
